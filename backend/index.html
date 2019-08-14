@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				
+		<title>Login</title>
+		<!-- Bootstrap core CSS-->
+		<link href="../includes/vendor/bootstrap/css/bootstrap.min7b7c.css?1553259835" rel="stylesheet">
+		<!-- Custom fonts for this template-->
+		<link href="../includes/vendor/font-awesome/css/font-awesome.min7b7c.css?1553259835" rel="stylesheet" type="text/css">
+		<link href="../includes/vendor/sweetalert/sweetalert7b7c.css?1553259835" rel="stylesheet" type="text/css">
+		<!-- Custom styles for this template-->
+		<link href="../includes/css/saasappoint-login7b7c.css?1553259835" rel="stylesheet">
+	</head>
+	<body class="saasappoint">
+		<section class="saasappoint-login-main" style="background: linear-gradient(0.09turn,#EB2D2E,#1082C5,#7F257D)!important;height:655px">
+			<div class="container saasappoint-login-container">
+				<div class="row">
+					<div class="col-md-8 saasappoint-login-left-block">
+						<img class="d-block img-fluid saasappoint-bg-image-border" src="../includes/login-images/login-bg.jpg" alt="Cleaning Inc.">
+						<div class="saasappoint-banner-text-top-left">
+							<h2>Hotelify</h2>
+							<a href="../index.php" class="saasappoint-continue-booking-link mt-3 text-white pull-right">Continue Booking >></a>
+						</div>
+					</div>
+					<div class="col-md-4 saasappoint-login-right-block">
+						<h2 class="text-center">Login Now</h2>
+						<form id="saasappoint_login_form" name="saasappoint_login_form" method="POST" action="login.php">
+							<div class="form-group">
+								<label for="saasappoint_login_email">Hotel Name</label>
+								<input type="text" class="form-control" id="saasappoint_login" name="login" placeholder="Enter Hotel Name" value="" />
+							</div>
+							<div class="form-group">
+								<label for="saasappoint_login_password">Password</label>
+								<input type="password" class="form-control" id="saasappoint_login_password" name="password" placeholder="Enter password" value="" />
+								<label id="saasappoint-login-error" class="error">Sorry! Wrong email address or password</label>
+							</div>
+							<div class="form-check">
+								<label class="form-check-label">
+									<input type="checkbox" class="form-check-input" id="saasappoint_login_remember_me" name="saasappoint_login_remember_me"  />
+									<small>Remember Me</small>
+								</label>
+								<input type="submit"  class="btn float-right btn-success" value="Login"></input>
+							</div>
+						</form>
+						<p class="text-left mt-4"><a href="forgot-password.html">Lost your password?</a></p>
+						<hr />
+						<p class="text-center mt-4">Need an account? <a href="register.html">Sign Up</a></p>
+						
+					</div>
+						<div style="left: 0;bottom: 0;width: 100%;position:fixed;background:transparent;color: white;text-align: center;padding-top:20px 0px 10px 0px" >
+
+								<p> © 2017-2019 | Khwaja Fareed University of Engineering & Information Technology | Department of Computer Sciences |  kfueit.edu.pk</p>
+						</div>
+				</div>
+			</div>
+				
+		</section>
+
+		<!-- Bootstrap core JavaScript-->
+		<script src="../includes/vendor/jquery/jquery.min7b7c.js?1553259835"></script>
+		<script src="../includes/vendor/jquery/jquery.validate.min7b7c.js?1553259835"></script>
+		<script src="../includes/vendor/bootstrap/js/bootstrap.min7b7c.js?1553259835"></script>
+		<script src="../includes/vendor/sweetalert/sweetalert7b7c.js?1553259835"></script>
+		<!-- Custom scripts for all pages-->
+		<script>
+			var generalObj = { 'site_url' : 'http://saasappoint.perfecky.com/saasappoint/', 'ajax_url' : 'http://saasappoint.perfecky.com/saasappoint/includes/lib/' };
+		</script>
+		<script src="../includes/js/saasappoint-login7b7c.js?1553259835"></script>
+	</body>
+</html>

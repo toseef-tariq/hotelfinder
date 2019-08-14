@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				
+		<title>Register</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130309251-1"></script>
+					<meta name="description" content="SaaSAppoint- Online Multi Business Appointment Scheduling & Reservation Booking Calendar- SaaS Booking Software, Cleaner Booking, Multi Business Booking Software, Online Appointment Scheduling, Appointment Booking Calendar, Reservation System, Multi Business directory, Rendez-vous logiciel, Limpieza reserva, Saas appointment, Cleaning services business software, Scheduling SaaS, Booking Calendar, SAAS Appointment Calendar, Cleaning Appointment, Maid Booking Software">
+					<!-- Bootstrap core CSS-->
+		<link href="../includes/vendor/bootstrap/css/bootstrap.minc1af.css?1553260034" rel="stylesheet">
+		<!-- Custom fonts for this template-->
+		<link href="../includes/vendor/font-awesome/css/font-awesome.minc1af.css?1553260034" rel="stylesheet" type="text/css">
+		<link href="../includes/vendor/sweetalert/sweetalertc1af.css?1553260034" rel="stylesheet" type="text/css">
+		<!-- Custom styles for this template-->
+		<link href="../includes/css/saasappoint-registerc1af.css?1553260034" rel="stylesheet">
+		<link rel="stylesheet" href="../includes/vendor/intl-tel-input/css/intlTelInputc1af.css?1553260034">
+	</head>
+	<body class="saasappoint" 	style="background: linear-gradient(0.09turn,#EB2D2E,#1082C5,#7F257D)!important;">
+
+		<section class="saasappoint-register-main" >
+			
+			<div class="container saasappoint-register-container" >
+				<form id="saasappoint_customer_register_form" name="saasappoint_customer_register_form" method="post" action="../addnew.php" enctype="multipart/form-data">
+					<div class="row">
+						<div class="col-md-12">
+							<span class="saasappoint-text-float-right pb-0 pt-3">Already have an account? <a href="index.html">Login</a></span>
+						</div>
+						<div class="col-md-12 pt-3 saasappoint-register-right-block">
+							<h2 class="text-center">Register Your Account</h2>
+							<div class="row">
+								<div class="form-group col-md-3">
+									<label for="saasappoint_register_customer_city">Hotel Name:</label>
+									<input type= "text" id = "adm-name-hotel" class="form-control" id="saasappoint_register_customer_city" name="nama_htl" placeholder="Enter Hotel Name">
+								</div>
+								<div class="form-group col-md-3">
+									<label for="saasappoint_register_customer_state">City:</label>
+									<select id="city" class = "form-control" name="city_n">
+										<option >Select City</option>
+										<option>Lahore</option>
+								</select>
+								</div>
+								<div class="form-group col-md-3">
+									<label for="saasappoint_register_customer_zip">Photo Directory:</label>
+									<input type="file" accept="image/*" class="form-control" name="fileToUpload" id="fileToUpload" placeholder="C://photos/abc.jpg">
+								</div>
+								<div class="form-group col-md-3">
+									<label for="saasappoint_register_customer_country">Password:</label>
+									<input type="password" class="form-control" id="saasappoint_register_customer_country" name="pass" placeholder="Enter Your Password">
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-12">
+									<label for="saasappoint_register_customer_country">Description:</label>
+									<textarea rows="6" cols="50" class="form-control" style="resize: none;" name="desk_htl" maxlength="100"></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-12">
+								
+									<button type = "submit" name="add_new_hotel"  class="saasappoint_register_btn btn p-2 w-100" style="background: linear-gradient(0.09turn,#EB2D2E,#1082C5,#7F257D)!important;"><span class = "glyphicon glyphicon-plus"></span> Register &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Only for Hotel Staff</button>
+								</div>
+							</div>
+							<div class="row">
+							
+								<div style="left: 0;bottom: 0;width: 100%;position:fixed;background:transparent;color: white;text-align: center;padding-top:20px 0px 10px 0px" >
+
+									<p> © 2017-2019 | Khwaja Fareed University of Engineering & Information Technology | Department of Computer Sciences |  kfueit.edu.pk</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</form>
+				
+			</div>
+			
+		</section>
+						
+
+		<!-- Bootstrap core JavaScript-->
+		<script src="../includes/vendor/jquery/jquery.minc1af.js?1553260034"></script>
+		<script src="../includes/vendor/jquery/jquery.validate.minc1af.js?1553260034"></script>
+		<script src="../includes/vendor/bootstrap/js/bootstrap.minc1af.js?1553260034"></script>
+		<script src="../includes/vendor/sweetalert/sweetalertc1af.js?1553260034"></script>
+		<!-- Custom scripts for all pages-->
+		<script>
+
+		<script src="../includes/vendor/intl-tel-input/js/intlTelInputc1af.js?1553260034"></script>
+		<script src="../includes/js/saasappoint-registerc1af.js?1553260034"></script>
+	</body>
+<script>
+var myArray = new Array("Abbottabad",
+"Adezai",
+"Ali Bandar",
+"Amir Chah",
+"Attock",
+"Ayubia",
+"Bahawalpur",
+"Bahawalnagar",
+"Burewala",
+"Bhakkar",
+"Chiniot",
+"Chakwal",
+"Chitral",
+"Dadu",
+"Dera Ghazi Khan",
+"Dera Ismail Khan",
+"Daska",
+"Dera Bugti",
+"Digri",
+"Faisalabad",
+"Ghotki",
+"Gwadar",
+"Gujranwala",
+"Gujrat",
+"Hyderabad",
+"Haripur",
+"Hafizabad",
+"Hasilpur",
+"Haveli Lakha",
+"Islamabad",
+"Jacobabad",
+"Jamshoro",
+"Jhang",
+"Jhelum",
+"Karachi",
+"Kamokey",
+"Kashmor",
+"Kasur",
+"Khairpur",
+"Khanpur",
+"Khanewal",
+"Kohat",
+"Korangi",
+"Lahore",
+"Lasbela",
+"Layyah",
+"Liari",
+"Lodhran",
+"Multan",
+"Mandi Bahauddin",
+"Mirpur",
+"Mianwali",
+"Mirpur Khas",
+"Muzaffar Garh",
+"Muzaffarabad",
+"Nawabshah",
+"Nazimabad",
+"Nowshera",
+"Okara",
+"Peshawar",
+"Quetta",
+"Rawalpindi",
+"Rahim Yar Khan",
+"Rajan Pur",
+"Ranipur",
+"Rawalakot",
+"Rohri",
+"Sialkot",
+"Sadiqabad",
+"Sahiwal",
+"Sargodha",
+"Sheikhupura",
+"Shikarpur",
+"Sui",
+"Sukkur",
+"Swabi",
+"Swat",
+"Tando Adam",
+"Thatta",
+"Toba Tek Singh",
+"Umarao",
+"Umarkot",
+"Vehari",
+"Wadh",
+"Wah Cantt",
+"Wazirabad",
+"Yakmach",
+"Zhob");
+
+// Get dropdown element from DOM
+var dropdown = document.getElementById("city");
+
+// Loop through the array
+for (var i = 0; i < myArray.length; ++i) {
+    // Append the element to the end of Array list
+    dropdown[dropdown.length] = new Option(myArray[i], myArray[i]);
+}
+</script>
+
+</html>
