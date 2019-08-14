@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				
+		<title>Adam Inc.</title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130309251-1"></script>
+					<meta name="description" content="SaaSAppoint- Online Multi Business Appointment Scheduling & Reservation Booking Calendar- SaaS Booking Software, Cleaner Booking, Multi Business Booking Software, Online Appointment Scheduling, Appointment Booking Calendar, Reservation System, Multi Business directory, Rendez-vous logiciel, Limpieza reserva, Saas appointment, Cleaning services business software, Scheduling SaaS, Booking Calendar, SAAS Appointment Calendar, Cleaning Appointment, Maid Booking Software">
+			
+		<!-- Bootstrap core CSS -->
+		<link href="includes/vendor/bootstrap/css/bootstrap.min81a8.css?1553259831" rel="stylesheet">
+		<link href="includes/vendor/font-awesome/css/font-awesome.min81a8.css?1553259831" rel="stylesheet" type="text/css">
+		
+		<!-- Custom fonts for this template -->
+		<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet'>
+		
+		<!-- Custom styles for this template -->
+		<link href="includes/css/saasappoint-business-directory81a8.css?1553259831" rel="stylesheet">
+	<style>
+a{
+text-decoration:none;
+color:black;
+}
+a:hover{
+color:#509bb5;
+}
+</style>
+	</head>
+	<body style="background-color:white;">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div id="saasappoint-main-menu-collapse" class="navbar navbar-expand navbar-light bg-light saasappoint_header_bg_clr">
+			<div class="navbar-brand" style="width:100%">
+				<a class="pull-left btn btn-link btn-sm" href="business-directory.html">Adam Inc. </a>
+				<div class="pull-right">
+					<a class="btn btn-link btn-sm saasappoint-bd-link-font" href="backend/index.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+					<a class="btn btn-link btn-sm saasappoint-bd-link-font" href="backend/signup-as.html"><i class="fa fa-user-plus" aria-hidden="true"></i> SignUp</a>
+				</div>
+			</div>	
+		</div>
+		<div class= "saasappoint-banner-overlay ">
+			<div class="container text-center">
+				<div class="col-md-12">
+					<div class="saasappoint-banner-heading ">
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8">
+								<div class="saasappoint-bsearch-result-heading ">
+									<h3>Looking for Popular and Nearby Hotels</h3>
+									<p>The easiest way to book your room.</p>
+									<div class="saasappoint-heading-border text-center"></div>
+									<p>
+										<!-- Search form -->
+										<div class="card card-sm">
+											<div class="card-body row no-gutters align-items-center">
+												<!--end of col-->
+												<script type="text/javascript" src="auto_complete.js"></script>								
+												<div class="col">
+													<input id="txtHint"  onkeyup="showName(this.value)" id="saasappoint_pagination_search_keyword" class="form-control form-control-lg saasappoint-form-control-borderless" type="text" placeholder="Search by place or keywords" autocomplete="off" />
+												</div>												
+												<!--end of col-->
+												<div class="col-auto">
+													<a type="submit"  id="saasappoint_search_business_btn"  class="btn btn-lg btn-success" ><i class="fa fa-search" aria-hidden="true"></i></a>
+												</div>
+												<!--end of col-->
+											</div>
+												
+										</div>
+									</p>
+								</div>
+								<p><span style="border:1px solid transparent;" id="txtName"></span></p>
+											
+							</div>
+							<!--end of col-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="saasappoint-paddingtb60" style="padding-top: 0px;padding-bottom: 0px;">
+			<div class="container">
+				<div id="saasappoint_get_all_business_list">
+					<!-- BUSINESS LISTING CONTENT HERE -->
+				
+				</div>
+			</div>
+		</div>
+	
+
+<!-- Jssor Slider Begin -->
+<!-- You can move inline styles to css file or css block. -->
+<div id="slider1_container"     style="position: relative; top: 0px;left:0;right:0; width: 1200px; height: 120px; overflow: hidden;margin:auto;">
+    <!-- Slides Container -->
+    <div u="slides"          style=" position:absolute;width: 1200px; height: 120px; overflow: hidden;">
+   
+        <div ><a style="cursor:pointer;" onclick="window.location='www.google.com'"><img u="image" alt="android"  src="slider/img/logo2.jpg"/></a></div>
+        <div><img u="image" alt="amazon" src="slider/img/logo3.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo4.jpg"/></div>
+        <div><img u="image" alt="amazon" src="slider/img/logo5.jpg"/></div>
+        <div><img u="image" alt="amazon" src="slider/img/logo7.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo8.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo10.jpg"/></div>
+        <div><img u="image" alt="amazon" src="slider/img/logo11.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo13.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo16.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo17.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo20.jpg"/></div>
+        <div><img u="image" alt="android" src="slider/img/logo21.jpg"/></div>
+    </div>
+</div>
+
+
+	</div>
+	<script type="text/javascript" src="slider/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="slider/js/jssor.js"></script>
+<script type="text/javascript" src="slider/js/jssor.slider.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        var options = {
+            $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+            $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+            $AutoPlayInterval: 0,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+            $PauseOnHover: 4,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+            $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+            $SlideEasing: $JssorEasing$.$EaseLinear,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+            $SlideDuration: 3000,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+            $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+            $SlideWidth: 160,                                   //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+            //$SlideHeight: 100,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+            $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+            $DisplayPieces: 7,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+            $ParkingPosition: 0,                              //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+            $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+            $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+            $DragOrientation: 1                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+        };
+
+        var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+        //responsive code begin
+        //you can remove responsive code if you don't want the slider scales while window resizes
+        function ScaleSlider() {
+            var bodyWidth = document.body.clientWidth;
+            if (bodyWidth)
+                jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1200));
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+
+        ScaleSlider();
+
+        if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+            $(window).bind('resize', ScaleSlider);
+        }
+
+
+        //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
+        //    $(window).bind("orientationchange", ScaleSlider);
+        //}
+        //responsive code end
+    });
+</script>
+
+
+
+
+	<!-- Footer section START -->
+		<footer class="py-5 saasappoint-footer-bg"     style="padding-bottom: 20px!important;padding-top: 20px!important">
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; Adam Inc.  2019</p>
+			</div>
+		<!-- /.container -->
+		</footer>
+		<script>
+		document.getElementById("saasappoint_search_business_btn").onclick = function () { 
+		var txt=document.getElementById("txtName").innerHTML;
+		var val=document.getElementById("txtHint").value;
+		if(txt.search("no match found")==-1 && txt.toUpperCase() === val.toUpperCase() )
+		{
+		window.location='search.php?q='+val;	
+		}
+		};
+
+		
+		</script>
+		<script src="includes/vendor/jquery/jquery.min81a8.js?1553259831"></script>
+		<script src="includes/js/saasappoint-business-directory81a8.js?1553259831"></script>
+	</body>
+</html>
